@@ -1,0 +1,70 @@
+
+.lists{
+    list-style-type: none;
+    padding-left: 0px;
+    padding-right: 26px;
+}  
+.widget-containers-div
+{
+    display: flex;
+}
+li:first-child {
+    font-weight: bold;
+    font-size: 22px;
+} 
+.widget-left-containers
+{    float :left;
+     height: 320px;
+}
+.widget-containers
+{
+    background-color: rgba(0,0,0,.2);
+    padding: 0;
+    width: 16%;
+    font-size: 17px;
+    margin-bottom: 20px;
+    box-shadow: 4px 4px 2px #e3e3e3;
+    margin: 38px;
+    padding-left: 11px;
+    padding-right: 11px;
+}
+.widget-right-containers
+{
+    float :right;
+    height: 363px;
+}
+h3{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: blue;
+    height: 31px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+top-nav ul li {
+    display: inline-block
+}
+    .ms-modalExample-container {
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: stretch;
+    }
+      .ms-modalExample-header {
+        color: blue;
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #ddd;
+        padding: 0 28px;
+        min-height: 40px;
+      }
+  
+      .ms-modalExample-body {
+        padding: 0px 29px;
+        overflow-y: auto;
+      }
+      .widgets-list-container :hover {
+        background: white;
+    }
+    
+    
